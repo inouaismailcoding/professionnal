@@ -1,0 +1,111 @@
+    /*@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')*/
+    /*@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+/* On Cree deux classes de police*/
+    
+    body {
+        background-color: #ddd;
+    }
+    
+    .redressed {
+        font-family: 'redressed', cursive;
+    }
+    
+    .merriweather {
+        font-family: 'merriweather', serif;
+    }
+    /* ON STYLISE LE FORMULAIRE D'INSCRIPTION ET DE CONNECTION */
+    
+    #formulaireInscription {
+        background-color: #e2dbd3;
+        width: 500px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 40%;
+        border: 2px solid;
+    }
+    
+    #formulaireInscription h2 {
+        text-align: center;
+        text-transform: capitalize;
+        font-family: cursive;
+    }
+    
+    .msgErr {
+        color: red;
+    }
+    
+    #formulaireInscription p {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 12;
+        font-family: cursive;
+    }
+    
+    .formulaireInscription {
+        width: 450px;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formulaireInscription input {
+        margin-top: 10px;
+        border: 2px solid black;
+        border-radius: 8px;
+        height: 40px;
+        font-size: 16;
+        outline: none;
+    }
+    
+    .formulaireInscription input[type=submit] {
+        width: 250px;
+        align-self: center;
+    }
+    
+    .formulaireInscription input:focus {
+        border: 2px solid chartreuse;
+    }
+    
+    .formulaireInscription input[type=submit]:hover {
+        background-color: chartreuse;
+    }
+    /* ON STYLISE LA PAGE D'ACCEUIL index.php */
+    /*.container {
+        background-color: #ddd;
+        display: grid;
+        grid-template-areas: 'entete entete' 'principal lateral' 'pied pied';
+    }
+    .entete {
+        grid-area: entete;
+    }
+    
+    .navbar {
+        background-color: #c9ebdf;
+    }
+    
+    .divnavbar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .divnavbar h3 {
+        margin-left: 15px;
+        margin-right: 50px;
+    }
+    
+    .listenavbar {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }*/
+    
+    .table td {
+        font-size: 12px;
+        font-weight: 200;
+    }
